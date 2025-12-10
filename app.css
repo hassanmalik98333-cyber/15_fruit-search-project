@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+input:focus {
+ outline: 1px solid rgb(247, 123, 40);
+ 
+}
+
+body {
+   margin-top: 46vh;  
+   background: linear-gradient(90deg, rgb(255, 222, 0), rgb(255, 166, 0), rgb(255, 94, 0));
+}
+
+
+.search-container {
+ display: flex;
+ justify-content:center;
+ align-content:center;
+ margin: 0 auto;
+} 
+/* I learned flex in the course, but was reminded of this specifically by chat gpt. */
+
+.search-container input,
+.search-container .suggestions {
+  /* TODO */
+}
+
+.search-container input {
+ background-color:rgb(255, 189, 67);
+ border: 0px;
+ border-bottom: 2px solid rgb(255, 69, 69);
+ width: 20%;
+ height: 4%;
+ position: absolute; 
+}
+
+.search-container .suggestions {
+width: 20%;
+height: 50%;
+}
+
+
+ul {
+  list-style: none;
+  /* outline: 2px solid rgb(255, 194, 80); */
+  width: 100%;
+  height: 100%;
+  margin: 0 ;
+  padding: 0 ;
+  position: relative;
+  top: 52px;
+  
+  
+}
+
+ul.has-suggestions {
+  /* TODO */
+}
+
+ul li {
+  background-color:rgb(255, 189, 67);
+  width: 100%;
+  height: 2.5vh;
+  padding-left: 5px;
+  padding-top: 7px;
+}
+
+ul li:hover {
+  background-color: rgb(255, 102, 0);
+}
+
+
+input {
+   /* TODO */
+}
